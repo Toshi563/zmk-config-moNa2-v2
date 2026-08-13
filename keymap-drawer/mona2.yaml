@@ -5,7 +5,7 @@ layers:
   - W
   - E
   - R
-  - T
+  - {t: T, h: '4'}
   - Y
   - U
   - I
@@ -15,7 +15,7 @@ layers:
   - S
   - D
   - F
-  - G
+  - {t: G, h: '5'}
   - UP ARROW
   - H
   - J
@@ -26,7 +26,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: '6'}
   - '&mkp LCLK'
   - DOWN ARROW
   - N
@@ -177,7 +177,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -211,8 +211,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR ALL
   '5':
@@ -230,7 +230,7 @@ layers:
   - '&mkp MB3'
   - '&mkp MB2'
   - '&mkp MB1'
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -284,7 +284,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
