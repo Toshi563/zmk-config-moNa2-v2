@@ -35,8 +35,8 @@ layers:
   - .
   - /
   - LCTRL
-  - LANGUAGE 4
-  - LANGUAGE 5
+  - LANG1
+  - LANG2
   - {t: INTERNATIONAL 3, h: '2'}
   - {t: SPACE, h: '1'}
   - '&mkp RCLK'
